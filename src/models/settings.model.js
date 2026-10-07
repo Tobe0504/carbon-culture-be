@@ -23,11 +23,11 @@ const settingsSchema = new mongoose.Schema(
     key: { type: String, default: "store", unique: true },
     whatsappNumber: { type: String, default: "2348033008048" },
     phoneDisplay: { type: String, default: "+234 803 300 8048" },
-    instagramHandle: { type: String, default: "carbonculture" },
+    instagramHandle: { type: String, default: "carboncultureng" },
     email: { type: String, default: "" },
     address: { type: String, default: "3rd Floor, Engineering Close, Victoria Island, Lagos" },
     deliveryNote: { type: String, default: "Within 3 working days" },
-    madeToOrderNote: { type: String, default: "Iro & Buba takes 2 weeks after full payment" },
+    madeToOrderNote: { type: String, default: "Customized Iro & Buba takes 2-3 weeks" },
     announcement: { type: String, default: "" },
   },
   {
